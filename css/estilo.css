@@ -1,0 +1,76 @@
+body {
+  margin: auto;
+  padding: auto;
+  background-image: url(../imagenes/pexels-eberhard-grossgasteiger-1287142.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: cover;
+  font-size: Arial;
+}
+.container {
+  margin: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container_form {
+  background-color: rgb(33, 98, 126);
+  border-radius: 15px;
+  padding: 40px;
+  opacity: 0.8;
+}
+img {
+  width: 100px;
+  height: 100xp;
+  margin-left: 110px;
+}
+
+h2 {
+  text-align: center;
+  color: beige;
+}
+input {
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: aliceblue;
+  border-bottom: 2px solid white;
+}
+.boton{
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(21, 165, 14);
+    border: none;
+    color: rgb(12, 53, 129);
+    border-bottom: 4px solid;
+    margin-left: 90px;
+}
+
+.check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+label:hover{
+    color: aqua;
+}
+
+.boton:active{
+  background-color: rgb(43, 226, 67);
+  width: 140px;
+}
+.registro{
+  color: rgb(155, 23, 28);
+  border-bottom: 5px solid black;
+}
+.registro:hover{
+  color: rgb(255, 0, 0);
+}
